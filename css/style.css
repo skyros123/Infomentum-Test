@@ -1,0 +1,184 @@
+
+ .jumbotron {
+              
+              background-color: lightblue !important;
+              text-align: center;
+              margin-top: 50px;
+          }
+          
+          #email {
+              
+              width: 300px;
+              
+          }
+          
+          #appSummary {
+              
+              text-align: center;
+              margin-top:50px;
+              margin-bottom: 50px;
+              
+          }
+          
+          .card-img-top {
+              
+              width: 100%;
+              
+          }
+          
+          #appStoreIcon {
+              
+              width: 200px;
+              
+          }
+.what-we-do {
+    margin-top: 30px;
+}
+.text-intro {
+  font-size: 20px;
+  margin-bottom: 50px; 
+}
+.text-center {
+  margin:center ;
+padding-right: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 60%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #9B9B9B;
+  border-radius: 0px;
+  }
+ #donation .donate-btn {
+  padding: 13px 45px;
+  color:white;
+  background-color: #449D44;
+}
+
+#donation .box {
+  
+  position: relative;
+  z-index: 2; }
+
+ #donation .i-want-to-donate .form-control {
+    padding-left: 30px;
+    background: #ffffff url(../images/gbp-icon.png) no-repeat left center; }
+
+#donation #animal-holder {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 160px;
+  background: no-repeat top center;
+  background-size: cover;
+  position: absolute;
+
+  z-index: 3; }
+
+#animal-holder {
+    height: 200px;
+}
+.profile {
+    margin-top: 40px;
+    height: 450px;
+}
+
+  #donation #animal-holder.giraffe {
+      background-image: url(../images/giraffe.png); }
+  #donation #animal-holder.tiger {
+    background-image: url(../images/tiger.png); }
+  #donation #animal-holder.rhino {
+    background-image: url(../images/rhino.png); }
+          
+          #footer {
+              
+             
+              padding-top: 150px;
+              margin-top: 50px;
+              text-align: center;
+              padding-bottom: 150px;
+          }
+          
+          body {
+              
+              position: relative;
+              
+          }
+          .nav-item{
+              padding-top: 15px;
+          }
+          nav{
+              border-top: solid 10px #FEC01E !important;
+          }
+          form{
+              margin-top: 10px;
+              display: block;
+          }
+
+        .intro {
+          text-align: center;
+          color: #474C55;
+          margin-bottom: 10px;
+          line-height: 65px;
+          z-index: 0;
+          font-size: 32px;
+          font-weight: 800; }
+        .what-we-do {
+          padding-top: 40px;
+          padding-bottom: 40px;
+          overflow: hidden;
+          }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+
+.form-group {
+    width: 360px;
+    padding: 20px;
+}
+   
+
+          footer {
+              padding-top: 30px;
+              padding-bottom: 10px;
+              background: #474C55;
+              color: #ffffff; }
+          
+          footer h4 {
+                font-weight: 800;
+                font-size: .9em;
+                margin-bottom: 30px; }
+          footer a {
+                color: #ffffff; }
+                footer a:hover {
+                  color: #ffffff;
+                  text-decoration: underline; }
+          footer li {
+                margin-bottom: 15px; }
+          footer .col-footer {
+                margin-bottom: 20px; }
+          
+         footer .icon-holder a {
+                display: inline-block;
+                margin-right: 10px;
+
+                    }
+          footer .icon-holder a:hover {
+              opacity: 0.5;
+              filter: alpha(opacity=50); }
+
+ 
