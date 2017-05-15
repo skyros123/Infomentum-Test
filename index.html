@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+  <head>
+      
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+    <title>Little Zebra Foundation</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="css/style.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+     
+      
+  </head>
+    
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+      
+      
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top" id="navbar">
+          <a class="navbar-brand" href="#"><img src="images/logo-little-zebra.svg" alt="Logo">
+            </a>
+           
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#jumbotron">WHAT WE DO <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">GET INVOLVED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"> SHOP</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#"> NEWS</a>
+            </li>
+          </ul>
+          <form class="form-inline pull-xs-right">
+            <input class="form-control" type="search" placeholder="search">
+              
+            <button class="btn btn-success" type="submit">DONATE NOW</button>
+          </form>
+        </nav>
+
+        <div class="jumbotron" id="jumbotron">
+          <h1 class="display-4" class="intro">DONATE TODAY!</h1>
+          <p class="lead">This is why YOU Should Donate Today!</p>
+          <hr class="m-y-2">
+          <p>Want to know more? Join our mailing list!</p>
+
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="email">Email address</label>
+            <div class="input-group">
+              <div class="input-group-addon">@</div>
+              <input type="email" class="form-control" id="email" placeholder="Your email">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+        </div>
+      
+      
+      <div class="container" id="donation">
+			<!-- HEADING -->
+			<p class="text-center text-intro">Help protecting the planet today, become a Little Zebra ambassador</p>
+			<div class="row" id="about">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="box" >
+						<h2 class="text-center tt">MAKE A DONATION</h2>
+						<form method="get" action="" id="form-donation">
+							<div class="form-horizontal">
+				              <div class="form-group">
+								<label class="col-sm-4 control-label" for="animal">I want to help</label>
+								<div class="col-sm-8">
+                                    
+                <select  class="form-control" id="animal" onchange="$('#imageToSwap').attr('src', this.options[this.selectedIndex].value);">
+    <option value="images/giraffe.png" selected>GIRAFFE</option>
+    <option value="images/tiger.png">TIGER</option>
+    <option value="images/rhino.png">RHINO</option>
+</select>
+  
+<br><br>
+
+
+							<!--	<select class="form-control input-lg" id="animal" name="animal" onchange="setImage(this);">
+								<option value="images/giraffe.png">Giraffe</option>
+								<option value="images/tiger.png">Tiger</option>
+								<option value="images/rhino.png">Rhino</option>
+								</select> -->
+								</div>
+								</div>
+							</div>
+							<div class="form-group i-want-to-donate">
+								<label>I want to donate:</label>
+								<div class="donation-value">
+									<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-lg">
+								<input type="radio" value="3" autocomplete="on">
+								<i class="fa fa-gbp"></i> 3
+										</label>
+								<label class="btn btn-lg">
+								<input type="radio" value="5" autocomplete="off"> 
+								<i class="fa fa-gbp"></i> 5
+										</label>
+								<label class="btn btn-lg">
+								<input type="radio" value="10" autocomplete="off"> 
+								<i class="fa fa-gbp"></i> 10
+										</label>
+									</div>
+									<label>or</label>
+									<input class="form-control input-lg" id="donation_value" type="number" name="donation_value" min="11" max="9999" step="1" required>
+								</div>
+								<span class="lz-checkbox">
+									<input type="checkbox" id="monthly" name="monthly" value="yes">
+									<label for="monthly">I want to do a monthly donation</label>
+								</span>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg green-btn donate-btn" type="submit">DONATE NOW</button>
+							</div>
+						</form>	
+						<div id="animal-holder"><img id="imageToSwap" class="profile" src="images/giraffe.png"></div>
+                
+                    </div>
+				</div>
+			</div>
+		</div>
+      
+      	<section class="what-we-do" id="what-we-do">
+		<div class="container">
+			<h1 class="intro">WHAT WE DO</h1>
+			<p class="text-center text-intro">Discover more about the Little Zebra foundation and how you can help us</p>
+			<div class="row what-we-do-holder">
+				<div class="col-md-8">	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet, magna sit amet suscipit laoreet, ante velit scelerisque massa, ac mattis ex magna et turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+					<p>Aliquam efficitur tellus vitae erat laoreet sodales. Donec mollis, augue nec feugiat accumsan, ante dui aliquet ante, sit amet vestibulum ligula ex non mi. Nunc quis imperdiet leo, blandit maximus orci. Phasellus porttitor eros magna, et viverra massa cursus ut. Cras nec est et urna ullamcorper volutpat et tristique augue. Nullam sit amet odio eget tortor rhoncus volutpat nec sed ipsum. Vivamus semper a ligula a sodales.</p>
+					<p>Morbi mi dui, luctus ac vestibulum in, dapibus id ante. Vivamus eu odio non mi finibus dapibus a a erat. Cras commodo pharetra sapien, non ultrices nisl egestas eu.</p>
+					<div class="button-holder">
+						<button class="btn gray-btn">OUR HISTORY</button>
+						<button class="btn yellow-btn">GET INVOLVED</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/cover-image.png" class="img-responsive" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+ 
+      <!-- =========================
+	FOOTER			 
+	============================== -->
+	<footer id="footer">
+		<div class="container">
+			<!-- WHO WE ARE-->
+			<div class="col-md-2 col-footer" data-wow-offset="10">
+				<h4>WHO WE ARE</h4>
+				<ul>
+					<li><a href="#">Our history</a></li>
+					<li><a href="#">Press centre</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+			<!-- GET INVOLVED-->
+			<div class="col-md-2 col-footer">
+				<h4>GET INVOLVED</h4>
+				<ul>
+					<li><a href="#">Join us</a></li>
+					<li><a href="#">Donate</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Shop</a></li>
+				</ul>
+			</div>
+			<!-- FOLLOW US-->
+			<div class="col-md-4 col-footer">
+				<h4>FOLLOW US</h4>
+				<div class="icon-holder">
+					<a href="#"><img src="images/facebook-official.svg" /></a>
+					<a href="#"><img src="images/twitter-square.svg" /></a>
+					<a href="#"><img src="images/pinterest-square.svg" /></a>
+					<a href="#"><img src="images/youtube-square.svg" /></a>
+				</div>
+			</div>
+			<!-- FOLLOW US-->
+			<div class="col-md-4 col-footer logo-footer">
+				<img src="images/Logotype.svg" alt="">
+				<p>
+					3 Warren Rd, <br>
+					Mary Tavy, <br>
+					Tavystock PL19 9PF, <br>
+					United Kingdom
+				</p>
+			</div>
+		</div>
+		<!-- / END Footer -->
+	</footer>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+      
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      
+  
+      
+  </body>
+    
+</html>
